@@ -44,7 +44,6 @@ def main():
 	os.system('echo "\\e[2;32m Winter says Parrot is awesome \\e[0m"')
 	os.system('echo "\\e[1;32m   Mail: WinterFreak@protonmaail.comm \\e[0m"')
 	print()
-	#os.system(f'su {user} ')
 	user=os.getlogin()
 	path = '/home/' + user + '/.bashrc'
 	pathn = '/home/' + user + '/.bashrcold'
