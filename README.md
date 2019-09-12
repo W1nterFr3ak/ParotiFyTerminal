@@ -10,10 +10,10 @@ $ python3 parotterminal.py
 
 parotterminal.py [-h] [--parotify] [--revert]
 
-Parotify Linux
-
 optional arguments:
-  -h, --help      show this help message and exit
-  --parotify, -p  Make terminal look like parrot os
-  --revert, -r    Revert to normal look
-  
+  * -h, --help      show this help message and exit
+
+Parrotify options:
+  * --parotify, -p  Make terminal look like parrot os
+  * --revert, -r    Revert to normal look
+
