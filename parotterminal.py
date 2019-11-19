@@ -26,9 +26,10 @@ def parrotify(path):
 	os.system('echo "\\e[1;32m[-] Parrotify was succesful, close terminal and reopen  \\e[0m"')
 	
 	
-def backup_bashrc(old, new, parser):
+def backup_bashrc(old, new, parser):#make sure not to delete the backup of bashrc
 	if  os.path.isfile(new):
 		os.system('echo "\\e[1;32m!!! YOUR PARROT TERMINAL HAS ALREADY BEEN SET UP !!! \\e[0m"')
+	
 	else:
 		os.system(f'mv {old} {new} ')
 		parrotify(old)
